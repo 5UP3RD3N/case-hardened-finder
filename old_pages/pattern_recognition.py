@@ -28,7 +28,7 @@ def crop_and_recognize_digits_from_folder():
     print(f"All digits have been saved to {output_file}.")
 
 
-folder_path = 'images'
-output_file = "./output/patterns.txt"
+folder_path = '../images'
+output_file = "patterns.txt"
 
 crop_and_recognize_digits_from_folder()
